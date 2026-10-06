@@ -9,7 +9,7 @@ const events = [
     date: "12 Oct 2026",
     location: "Block 32 Auditorium",
     attendees: 120,
-    image: "/events/tech-fest.jpg"
+    image: "/events/img1.jpg"
   },
 
   {
@@ -22,7 +22,7 @@ const events = [
     date: "18 Oct 2026",
     location: "Computer Science Block",
     attendees: 80,
-    image: "/events/ai-ml.jpg"
+    image: "/events/img2.jpg"
   },
 
   {
@@ -35,7 +35,7 @@ const events = [
     date: "25 Oct 2026",
     location: "Main Ground",
     attendees: 200,
-    image: "/events/cultural-night.jpg"
+    image: "/events/img3.jpg"
   },
 
   {
@@ -48,7 +48,7 @@ const events = [
     date: "02 Nov 2026",
     location: "Innovation Center",
     attendees: 150,
-    image: "/events/hackathon.jpg"
+    image: "/events/img4.jpg"
   }
 ];
 

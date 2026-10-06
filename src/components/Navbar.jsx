@@ -1,5 +1,5 @@
 import React from 'react'
-
+import {Search,Bell,UserRound} from 'lucide-react'
 const Navbar = () => {
   return (
     <div className='flex justify-between bg-white'>
@@ -11,9 +11,9 @@ const Navbar = () => {
         <p>About</p>
       </div>
       <div className="flex justify-between w-20">
-        <p>S</p>
-        <p>N</p>
-        <p>P</p>
+        <p><Search /></p>
+        <p><Bell /></p>
+        <p><UserRound /></p>
       </div>
     </div>
   )

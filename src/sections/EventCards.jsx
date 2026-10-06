@@ -1,15 +1,12 @@
 import React from 'react'
-import img1 from '../assets/events/img1.jpg'
-import img2 from '../assets/events/img2.jpg'
-import img3 from '../assets/events/img3.jpg'
-import img4 from '../assets/events/img4.jpg'
+
 
 const EventCards = ({event}) => {
 
   return (
-    <div className="flex m-5 p-5 w-70 rounded-2xl border border-purple-800 bg-purple-100">
+    <div className="flex flex-col m-5 p-5 w-70 rounded-2xl border border-purple-800 bg-purple-100">
 
-      <img src={event.image} alt={event.title} />
+      <img width="220px" height="200px" src={event.image} alt={event.title} />
 
       <div className="">
 
